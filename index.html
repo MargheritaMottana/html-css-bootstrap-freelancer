@@ -10,6 +10,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css">
 
@@ -25,24 +28,76 @@
             <div class="row">
 
                 <!-- logo -->
-                <div class="col-6 text-start bg-primary-subtle">
-                    logo bottone
+                <div class="col-6 text-start">
+
+                    <p class="fs-3 text-uppercase fw-bold">
+                        <a class="nav-link activ link-light link-underline link-underline-opacity-0" aria-current="page"
+                            href="#">
+                            start bootstrap
+                        </a>
+                    </p>
+
                 </div>
 
                 <!-- menu -->
-                <div class="col-6 text-end bg-info">
+                <div class="col-6 text-end">
 
                     <!-- menu hamburger -->
-                    <span class="d-md-none">
-                        menu hamburger
-                    </span>
+                    <nav class="d-md-none navbar navbar-expand-none" data-bs-theme="dark">
+
+                        <div class="container-fluid justify-content-end">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">PORTFOLIO</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">ABOUT</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">CONTACT</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
 
                     <!-- menu nav -->
                     <span class="d-none d-md-inline-block">
-                        <nav>
-                            menu nav
-                        </nav>
+
+                        <div>
+                            <nav>
+                                <ul class="nav">
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light text-uppercase fw-bold" href="#">
+                                            portfolio
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light text-uppercase fw-bold" href="#">
+                                            about
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light text-uppercase fw-bold" href="#">
+                                            contact
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
                     </span>
+
                 </div>
 
             </div>
@@ -59,34 +114,24 @@
 
             <div class="container">
 
-                <!-- immagine -->
                 <div class="row py-4">
 
-                    <div class="col text-center py-5 bg-info">
+                    <div class="col text-center py-3">
 
-                        <div> imamgine </div>
+                        <!-- immagine + titolo -->
+                        <div> <img src="./img/avatar.svg" alt="avatar"> </div>
 
-                    </div>
+                        <h1 class="text-light text-uppercase fw-bold py-3">
+                            start bootstrap
+                        </h1>
 
-                </div>
+                        <!-- decorazione -->
+                        <p class="fs-3 text-light"> <i class="bi bi-star-fill"></i> </p>
 
-                <!-- decorazione -->
-                <div class="row">
-
-                    <div class="col text-center bg-info">
-
-                        DECORAZIONE
-
-                    </div>
-
-                </div>
-
-                <!-- descrizione -->
-                <div class="row py-4">
-
-                    <div class="col text-center bg-info">
-
-                        GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+                        <!-- descrizione -->
+                        <p class="fs-4 text-light text-uppercase">
+                            GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+                        </p>
 
                     </div>
 
@@ -243,23 +288,53 @@
             <div class="container">
 
                 <!-- infos -->
-                <section class="row row-cols-1 row-cols-lg-3 gy-3 py-4">
+                <section class="row row-cols-1 row-cols-lg-3 gy-3 py-4 text-light text-center lh-1">
 
-                    <div class="col bg-light">
-                        <div class="text-center">
-                            info
+                    <!-- indirizzo -->
+                    <div class="col py-2">
+                        <div>
+                            <p class="text-uppercase">location </p>
+                            <p>2215 Jhon Daniel Drive CLark, MO 54243</p>
                         </div>
                     </div>
 
-                    <div class="col bg-warning">
-                        <div class="text-center">
-                            icone
+                    <!-- social -->
+                    <div class="col py-2">
+                        <div>
+                            <p class="text-uppercase">around the web</p>
+                        </div>
+                        <div>
+                            <nav>
+                                <ul class="nav justify-content-center">
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light fs-4" href=""> <i class="bi bi-facebook"></i> </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light fs-4" href=""> <i class="bi bi-google"></i> </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light fs-4" href=""> <i class="bi bi-twitter"></i> </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link text-light fs-4" href=""> <i class="bi bi-linkedin"></i> </a>
+                                    </li>
+
+                                </ul>
+                            </nav>
                         </div>
                     </div>
 
-                    <div class="col bg-light">
-                        <div class="text-center">
-                            info
+                    <!-- about -->
+                    <div class="col py-2">
+                        <div>
+                            <p class="text-uppercase">about freelancer</p>
+                            <p>Freelancer is a free to use, open source Bootstrap theme created by
+                                <span class="t-main-green"> Start Bootstrap</span>.
+                            </p>
                         </div>
                     </div>
 
@@ -272,12 +347,14 @@
         <!-- footer bottom -->
         <section class="dark-blue">
 
-            <div class="container text-center py-4">
+            <div class="container py-4">
 
-                <div class="row bg-primary">
+                <div class="row">
 
-                    <div class="col text-center bg-info">
-                        copyright
+                    <div class="col text-center text-light py-2">
+                        <p>
+                            Copyright <i class="bi bi-c-circle"></i> Your Website 2019
+                        </p>
                     </div>
 
                 </div>

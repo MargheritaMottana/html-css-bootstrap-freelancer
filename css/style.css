@@ -19,3 +19,15 @@ verde #19BC9B
 .main-green {
     background-color: #19BC9B;
 }
+
+.t-main-green {
+    color: #19BC9B;
+}
+
+img {
+    max-width: 200px;
+}
+
+h1 {
+    font-size: 3rem;
+}
