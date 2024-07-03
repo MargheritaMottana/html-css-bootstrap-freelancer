@@ -1,0 +1,21 @@
+/* 
+
+palette
+
+blu #3B536D
+blu scuro #2C3E4F
+verde #19BC9B
+
+*/
+
+.dark-blue {
+    background-color: #2C3E4F;
+}
+
+.blue {
+    background-color: #3B536D;
+}
+
+.main-green {
+    background-color: #19BC9B;
+}
