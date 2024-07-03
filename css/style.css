@@ -25,9 +25,17 @@ verde #19BC9B
 }
 
 img {
+    width: 100%;
+}
+
+main section:first-child img {
     max-width: 200px;
 }
 
 h1 {
     font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.3rem;
 }
